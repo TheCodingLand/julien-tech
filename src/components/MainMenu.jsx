@@ -51,7 +51,7 @@ class MainMenu extends React.Component {
         <a id="home" className="menu-item" href="/">Home</a>
         <a id="universe" className="menu-item" href="/universe">Universe Story</a>
         <a id="portfolio" className="menu-item" href="/portfolio">Portfolio</a>
-        <a id="tutorials" className="menu-item" href="/tutorials">Tutorials</a>
+        <a id="tutorials" className="menu-item" href="/help">Aide RCSL</a>
         <a onClick={ this.showSettings } className="menu-item--small" href="">Settings</a>
       </Menu>
     );

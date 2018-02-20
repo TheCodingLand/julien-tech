@@ -16,6 +16,8 @@ class App extends Component {
       <main id="page-wrap" style={{height: '2000px'}}>
       <div><h1> Welcome to Julien-Tech </h1></div>
       <div><h1 classname="description"> Use the menu, top left  </h1></div>
+      <h3>Tutorials</h3>
+      <img style={{ width: "100%",flex: "grow"}} src ='images/bandeau1.jpg' />
       <h3>Universe Story</h3>
       <img style={{ width: "100%",flex: "grow"}} src ='images/bandeau1.jpg' />
       <h3>Porfolio v1</h3>
