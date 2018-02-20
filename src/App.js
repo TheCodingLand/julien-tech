@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import './App.css'
 import './components/MainMenu.css'
 import MainMenu from './components/MainMenu'
-
+import Footer from './components/Footer'
 class App extends Component {
 
   render() {
@@ -20,9 +20,11 @@ class App extends Component {
       <img style={{ width: "100%",flex: "grow"}} src ='images/bandeau1.jpg' />
       <h3>Porfolio v1</h3>
       <img style={{ width: "100%", flex: "grow"}} src ='images/bandeau2.jpg' />
+    
     </main>
   
 </div>
+<Footer />
       </div>
     );
   }
