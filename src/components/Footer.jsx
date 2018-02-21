@@ -20,7 +20,7 @@ class Footer extends React.Component {
     }
     render() {
         return (
-            <div style={classes.copyright}>footer</div>
+            <div style={classes.copyright}>@Copyright julien Le Bourg</div>
         )
     }    
 }
