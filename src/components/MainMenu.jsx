@@ -57,7 +57,7 @@ class MainMenu extends React.Component {
     return (
       <Menu pageWrapId={ "page-wrap" } outerContainerId={ "outer-container" } styles={styles}>
         <a id="home" className="menu-item" href="/">Home</a>
-        <a id="ai" className="menu-item" href={ai}>Tina AI</a>
+        <a id="ai" className="menu-item" href={ai}>Tina AI Virtual assistant</a>
         <a id="universe" className="menu-item" href={universe}>Universe Story</a>
         <a id="help" className="menu-item" href={help}>Help for RCSL</a>
         <a onClick={ this.showSettings } className="menu-item--small" href="">Settings</a>
