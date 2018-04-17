@@ -38,9 +38,11 @@ var styles = {
 }
 
 let hostname =window.location.host.split('.')[-2] + "." + window.location.host.split('.')[-1]
-let ai = "ai."+ hostname
-let universe = "universe." + hostname
-let help = "help." + hostname
+console.log(hostname)
+let hostname = "julien.tech"
+let ai = "https://ai."+ hostname
+let universe = "https://universe." + hostname
+let help = "https://help." + hostname
 
 
 class MainMenu extends React.Component {
