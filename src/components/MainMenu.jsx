@@ -39,7 +39,8 @@ var styles = {
 
 let hostname =window.location.host.split('.')[-2] + "." + window.location.host.split('.')[-1]
 console.log(hostname)
-let hostname = "julien.tech"
+hostname = "julien.tech"
+//declared hostname as it seems window location is not working for me currently
 let ai = "https://ai."+ hostname
 let universe = "https://universe." + hostname
 let help = "https://help." + hostname
